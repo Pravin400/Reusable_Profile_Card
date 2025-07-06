@@ -19,9 +19,9 @@ const Card = (props) => {
             <p>Bio : {props.Bio}</p>
             <div className="socialMedia">
                 <a href="http://facebook.com"><img src= {fb} alt="facebook" /></a>
-                <a href=""> <img src={ig} alt="linkedin" /></a>
-                <a href=""><img src={li} alt="instagram" /></a>
-                <a href=""><img src={tw} alt="twitter" /></a>
+                <a href="http://linkedin.com"> <img src={li} alt="linkedin" /></a>
+                <a href="http://instagram.com"><img src={ig} alt="instagram" /></a>
+                <a href="http://twitter.com"><img src={tw} alt="twitter" /></a>
             </div>
             <button >Buy me a coffee</button>
         </div>
